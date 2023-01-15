@@ -10,6 +10,8 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
@@ -68,6 +70,129 @@
     }
     #about h3 {
       margin: 20px auto;
+    }
+
+    #services {
+      background-color: #efefef;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    #services .col-md-2 {
+      padding: 20px;
+    }
+    #services .col-md-2 p {
+      padding: 5px;
+      text-align: justify;
+    }
+    <!-- #services .col-md-2 .bi {
+      height: 50px;
+      width: 50px;
+    }
+
+    #features {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(./couple-fitness.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      color: #fff;
+    }
+    .feature-box {
+      height: 120px;
+    }
+    .feature-box .feature-left {
+      height: 120px;
+      width: 20%;
+      float: left;
+    }
+    .feature-box .feature-left .bi {
+      padding-top: 13px;
+      font-size: 50px;
+    }
+    .feature-box .feature-right {
+      height: 120px;
+      width: 80%;
+      float: left;
+    }
+    .feature-box .feature-right h4 {
+      padding-top: 10px;
+      padding-left: 15px;
+      text-align: left;
+    }
+
+    .col-md-2 .bi-person-square{
+      padding-left: 40px;
+      padding-top: 13px;
+      font-size: 50px;
+    }
+    .col-md-2 .fa-dumbbell{
+      padding-left: 10px;
+      padding-top: 13px;
+      font-size: 60px;
+    }
+    .col-md-2 .bi-smartwatch{
+      padding-left: 30px;
+      padding-top: 13px;
+      font-size: 50px;
+    }
+    .col-md-2 .fa-person-walking{
+      padding-left: 30px;
+      padding-top: 13px;
+      font-size: 50px;
+    }
+    .col-md-2 .fa-person-swimming{
+      padding-left: 30px;
+      padding-top: 13px;
+      font-size: 50px;
+    }
+    .col-md-2 .fa-badminton{
+      padding-left: 30px;
+      padding-top: 13px;
+      font-size: 50px;
+    }
+    .col-md-2 .bi-xbox{
+      padding-left: 20px;
+      padding-top: 13px;
+      font-size: 50px;
+    }
+    .col-md-2 .bi-cart-check{
+      padding-left: 30px;
+      padding-top: 13px;
+      font-size: 50px;
+    }
+
+    #testimonials {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    #testimonials .col-md-4 {
+      padding: 10px 30px;
+    }
+    #testimonials img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-top: -40px;
+      margin-left: -30px;
+      border: 5px solid #fff;
+      margin-bottom: 30px;
+    }
+    #testimonials span {
+      color: #013f7e;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .review {
+      font-size: 16px;
+      padding: 10px 10px 10px 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    }
+    .review .bi-twitter {
+      color: #013f7e;
     }
   </style>
 
@@ -148,6 +273,7 @@
               be excited
             </button>
             <br />
+            <br />
             <p>No Credit card needed</p>
           </div>
         </div>
@@ -227,5 +353,216 @@
         </div>
       </div>
     </section>
+
+    <!-- servies  -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-2">
+            <i class="bi bi-person-square"></i>
+            <p>Personal trainers</p>
+          </div>
+          <div class="col-md-2">
+            <i class="fa-sharp fa-solid fa-dumbbell"></i>
+            <p>Gyms</p>
+          </div>
+          <div class="col-md-2">
+            <i class="bi bi-smartwatch"></i>
+            <p>Fitness classes</p>
+          </div>
+          <div class="col-md-2">
+            <i class="fa-sharp fa-solid fa-person-walking"></i>
+            <p>Yoga classes</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-2">
+            <i class="fa-solid fa-person-swimming"></i>
+            <p>Swimming</p>
+          </div>
+          <div class="col-md-2">
+            <i class="fa-solid fa-person-swimming"></i>
+            <p>Badminton</p>
+          </div>
+          <div class="col-md-2">
+            <i class="bi bi-xbox"></i>
+            <p>Golf classes</p>       
+          </div>
+          <div class="col-md-2">
+            <i class="bi bi-cart-check"></i>
+            <p class="text-align-center">   Purchase <br />sports items</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!---->
+
+    <!--  features  -->
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+            <div class="feature-box">
+              <div class="feature-left">
+                <i class="bi bi-trophy-fill"></i>
+              </div>
+              <div class="feature-right">
+                <h4>Certified Trainers</h4>
+                <p>here i am for iu idbbc tvweeic assybc</p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="feature-left">
+                <i class="bi bi-heart-pulse-fill"></i>
+              </div>
+              <div class="feature-right">
+                <h4>Free Consultatnt</h4>
+                <p>here i am for iu idbbc tvweeic assybc</p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="feature-left">
+                <i class="bi bi-calendar2-check"></i>
+              </div>
+              <div class="feature-right">
+                <h4>Flexible Time</h4>
+                <p>here i am for iu idbbc tvweeic assybc</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center">Meet our users</h3>
+          <p class="text-center">
+            HEre u are .Go on. full of happiness in the enjoyable way.
+          </p>
+          <div class="col-md-4">
+            <p class="review">
+              Good site to know everything about fitness <br /><i
+                class="bi bi-twitter"
+              ></i>
+              <span>@username</span>
+            </p>
+            <img src="./user.jpg" />
+          </div>
+          <div class="col-md-4">
+            <p class="review">
+              Good site to know everything about fitness <br /><i
+                class="bi bi-twitter"
+              ></i>
+              <span>@username</span>
+            </p>
+            <img src="./user.jpg" />
+          </div>
+          <div class="col-md-4">
+            <p class="review">
+              Good site to know everything about fitness <br /><i
+                class="bi bi-twitter"
+              ></i>
+              <span>@username</span>
+            </p>
+            <img src="./user.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <section class="container p-5 text-center">
+      <h1>Company Introduction</h1>
+      <p>
+        Fit2Planet is an outstanding online sports scheduling software which
+        gives solutions for small and medium-sized businesses of all types. We
+        provide high-quality booking services for individuals as well as
+        companies all over the world and help them to grow and prosper. Our
+        reputable and secure appointment system is designed to make bookings
+        easy and comfortable for both our users and their clients!
+      </p>
+    </section>
+
+    <section></section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-muted border-top">
+      <section class="container mt-5 text-center">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Company name
+            </h4>
+            <p>
+              Fit2Planet is an outstanding online scheduling software which is a
+              great solution for small and medium-sized businesses of all types
+              of sports. We provide high-quality booking services for companies
+              to grow as well as for individuals all over the country to become
+              wealthy in healthy. Our reputable and secure appointment system is
+              designed to make bookings easy and comfortable for both our users
+              and their clients!
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h4 class="text-uppercase fw-bold mb-4">Products</h4>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h4 class="text-uppercase fw-bold mb-4">Contact</h4>
+            <p>
+              <i class="fas fa-home me-3 text-secondary"></i> Western Province
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i
+              >fit2planet@gmail.com
+            </p>
+            <p>
+              <i class="fas fa-phone me-3 text-secondary"></i> + 94 766144248
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center pb-3">© 2021 Copyright:</div>
+    </footer>
   </body>
+
+  <!--bootstrap 5 js-->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"
+  ></script>
 </html>
